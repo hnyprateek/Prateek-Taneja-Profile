@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prateek Taneja — Aviation Finance Leader | FP&A, Route Profitability & Finance Transformation</title>
+<meta name="description" content="Prateek Taneja — Chartered Accountant with 15+ years across Air India, IndiGo, and Akasa Air. FP&A, route profitability, controllership, and finance transformation. Open to senior finance leadership roles in the UAE, Saudi Arabia, and Canada.">
+<meta property="og:title" content="Prateek Taneja — Aviation Finance Leader | FP&A, Route Profitability & Finance Transformation">
+<meta property="og:description" content="15+ years of aviation controllership, FP&A, and finance transformation across Air India, IndiGo, and Akasa Air. Ask the Flight Data Recorder for details on any role.">
+<meta property="og:type" content="profile">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a1420'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23f0a93d'%3E%E2%9C%88%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a1420;
+    --bg-panel:#0f1e33;
+    --bg-panel-2:#152A46;
+    --amber:#f0a93d;
+    --teal:#3fc7b0;
+    --text:#edefe9;
+    --muted:#93a3b8;
+    --line:rgba(255,255,255,0.09);
+    --line-bright:rgba(240,169,61,0.35);
+    --radius:2px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'IBM Plex Sans',sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--amber);color:#0a1420;}
+
+  h1,h2,h3{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--teal);
+    display:flex;
+    align-items:center;
+    gap:0.6em;
+  }
+  .eyebrow::before{
+    content:"";
+    width:18px;height:1px;background:var(--teal);
+  }
+
+  a{color:var(--amber);}
+
+  /* ---------- NAV ---------- */
+  nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(10,20,32,0.88);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+    display:flex;align-items:center;justify-content:space-between;
+    padding:0.9rem 5vw;
+  }
+  nav .brand{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.85rem;
+    color:var(--muted);
+    letter-spacing:0.05em;
+  }
+  nav .brand strong{color:var(--text);}
+  nav ul{list-style:none;display:flex;gap:1.8rem;margin:0;padding:0;}
+  nav a{
+    color:var(--muted);text-decoration:none;font-size:0.82rem;
+    font-family:'IBM Plex Mono',monospace;letter-spacing:0.03em;
+    transition:color 0.2s;
+  }
+  nav a:hover{color:var(--amber);}
+  #navToggle{
+    display:none;background:none;border:1px solid var(--line);color:var(--text);
+    padding:0.4rem 0.7rem;font-family:'IBM Plex Mono',monospace;font-size:0.9rem;
+    cursor:pointer;border-radius:var(--radius);
+  }
+  #navToggle:hover{border-color:var(--amber);color:var(--amber);}
+  .nav-menu{transition:max-height 0.25s ease;}
+
+  /* ---------- HERO ---------- */
+  header.hero{
+    padding:5.5rem 5vw 4rem;
+    position:relative;
+    overflow:hidden;
+    border-bottom:1px solid var(--line);
+  }
+  header.hero::before{
+    content:"";
+    position:absolute;inset:0;
+    background:
+      radial-gradient(ellipse at 85% -10%, rgba(63,199,176,0.16), transparent 55%),
+      radial-gradient(ellipse at 10% 110%, rgba(240,169,61,0.10), transparent 50%);
+    pointer-events:none;
+  }
+  .hero-inner{position:relative;max-width:980px;}
+  .hero h1{
+    font-size:clamp(2.4rem,5.4vw,4.2rem);
+    line-height:1.02;
+    margin:1rem 0 0.6rem;
+  }
+  .hero .role{
+    font-size:clamp(1.05rem,2vw,1.35rem);
+    color:var(--muted);
+    max-width:640px;
+    margin-bottom:2.4rem;
+  }
+  .hero .role strong{color:var(--text);font-weight:500;}
+
+  .gauges{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .gauge{
+    padding:1.1rem 1.2rem;
+    border-right:1px solid var(--line);
+    background:linear-gradient(180deg,var(--bg-panel),var(--bg));
+  }
+  .gauge:last-child{border-right:none;}
+  .gauge .val{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:1.5rem;
+    color:var(--amber);
+    font-weight:600;
+  }
+  .gauge .lbl{
+    font-size:0.7rem;color:var(--muted);
+    text-transform:uppercase;letter-spacing:0.06em;margin-top:0.25rem;
+  }
+
+  section{padding:4.5rem 5vw;border-bottom:1px solid var(--line);}
+  .section-head{margin-bottom:2.4rem;}
+  .section-head h2{font-size:clamp(1.6rem,3vw,2.1rem);margin-top:0.6rem;}
+  .section-sub{color:var(--muted);max-width:640px;margin-top:0.6rem;font-size:0.95rem;}
+
+  /* ---------- FLIGHT ROUTE ---------- */
+  .route-wrap{position:relative;padding-top:1rem;}
+  .route-line{
+    position:relative;
+    display:flex;justify-content:space-between;align-items:center;
+    margin:0 0 0.5rem;
+    padding-bottom:2.6rem;
+  }
+  .route-line::before{
+    content:"";
+    position:absolute;left:0;right:0;top:14px;
+    height:1px;
+    background:repeating-linear-gradient(90deg,var(--line-bright) 0 8px, transparent 8px 16px);
+  }
+  .route-plane{
+    position:absolute;top:2px;left:0;
+    font-size:1.4rem;color:var(--amber);
+    transform:translateX(-50%) rotate(90deg);
+    animation:fly 14s linear infinite;
+    filter:drop-shadow(0 0 6px rgba(240,169,61,0.5));
+  }
+  @keyframes fly{
+    0%{left:0%;}
+    100%{left:100%;}
+  }
+  .stop{
+    position:relative;z-index:2;
+    background:var(--bg);
+    display:flex;flex-direction:column;align-items:center;
+    cursor:pointer;
+    flex:1;
+    padding:0.4rem 0.4rem;
+    border:none;
+    font-family:inherit;
+    border-radius:var(--radius);
+  }
+  .stop:focus-visible, .chip:focus-visible, .ask-more:focus-visible, #navToggle:focus-visible{
+    outline:2px solid var(--teal);outline-offset:2px;
+  }
+  .stop .node{
+    width:14px;height:14px;border-radius:50%;
+    background:var(--bg-panel);
+    border:2px solid var(--muted);
+    transition:all 0.25s;
+    margin-bottom:0.7rem;
+  }
+  .stop.active .node{border-color:var(--amber);background:var(--amber);box-shadow:0 0 0 5px rgba(240,169,61,0.15);}
+  .stop:hover .node{border-color:var(--teal);}
+  .stop .code{
+    font-family:'IBM Plex Mono',monospace;font-weight:600;
+    font-size:1.05rem;letter-spacing:0.04em;
+    color:var(--text);
+  }
+  .stop.active .code{color:var(--amber);}
+  .stop .co{font-size:0.72rem;color:var(--muted);text-align:center;margin-top:0.15rem;}
+  .stop .yr{font-size:0.66rem;color:var(--muted);opacity:0.7;margin-top:0.1rem;font-family:'IBM Plex Mono',monospace;}
+
+  .detail-panel{
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    border-left:3px solid var(--amber);
+    border-radius:var(--radius);
+    padding:1.8rem 2rem;
+    display:none;
+  }
+  .detail-panel.open{display:block;animation:reveal 0.35s ease;}
+  @keyframes reveal{from{opacity:0;transform:translateY(-6px);}to{opacity:1;transform:translateY(0);}}
+  .detail-panel h3{font-size:1.3rem;}
+  .detail-panel .meta{
+    font-family:'IBM Plex Mono',monospace;font-size:0.78rem;
+    color:var(--teal);margin-top:0.3rem;margin-bottom:1.1rem;
+  }
+  .detail-panel ul{margin:0;padding-left:1.1rem;color:#d7dce2;}
+  .detail-panel li{margin-bottom:0.55rem;font-size:0.94rem;}
+  .detail-panel .role-block{margin-bottom:1.5rem;}
+  .detail-panel .role-block:last-child{margin-bottom:0;}
+  .ask-more{
+    margin-top:1.3rem;
+    display:inline-flex;align-items:center;gap:0.5rem;
+    font-family:'IBM Plex Mono',monospace;font-size:0.78rem;
+    color:var(--amber);background:none;border:1px solid var(--line-bright);
+    padding:0.5rem 0.9rem;cursor:pointer;border-radius:var(--radius);
+  }
+  .ask-more:hover{background:rgba(240,169,61,0.08);}
+
+  /* ---------- ACHIEVEMENTS ---------- */
+  .ach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+  .ach-card{background:var(--bg-panel);padding:1.6rem 1.5rem;}
+  .ach-card .num{font-family:'IBM Plex Mono',monospace;font-size:2rem;color:var(--teal);font-weight:600;}
+  .ach-card p{font-size:0.88rem;color:var(--muted);margin-top:0.5rem;}
+
+  /* ---------- EXPERTISE ---------- */
+  .exp-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;}
+  .exp-col h3{font-size:0.85rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--amber);margin-bottom:1rem;font-family:'IBM Plex Mono',monospace;font-weight:600;}
+  .chips{display:flex;flex-wrap:wrap;gap:0.55rem;}
+  .chip{
+    border:1px solid var(--line);padding:0.45rem 0.8rem;
+    border-radius:20px;font-size:0.82rem;color:#d7dce2;
+    cursor:pointer;transition:all 0.2s;
+    font-family:'IBM Plex Sans',sans-serif;
+  }
+  .chip:hover{border-color:var(--teal);color:var(--teal);}
+
+  /* ---------- EDUCATION ---------- */
+  .edu-list{display:flex;flex-direction:column;gap:0;}
+  .edu-item{
+    display:flex;justify-content:space-between;align-items:baseline;
+    padding:1.1rem 0;border-bottom:1px solid var(--line);
+  }
+  .edu-item:last-child{border-bottom:none;}
+  .edu-item .name{font-weight:500;}
+  .edu-item .sub{color:var(--muted);font-size:0.85rem;}
+  .edu-item .yr{font-family:'IBM Plex Mono',monospace;color:var(--teal);font-size:0.85rem;}
+
+  /* ---------- CHAT / FLIGHT DATA RECORDER ---------- */
+  #ask{background:var(--bg);}
+  .terminal{
+    max-width:820px;
+    border:1px solid var(--line-bright);
+    border-radius:var(--radius);
+    background:linear-gradient(180deg,var(--bg-panel-2),var(--bg-panel));
+    box-shadow:0 20px 60px -20px rgba(0,0,0,0.6);
+  }
+  .terminal-bar{
+    display:flex;align-items:center;gap:0.5rem;
+    padding:0.7rem 1rem;border-bottom:1px solid var(--line);
+    font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--muted);
+  }
+  .terminal-bar .dot{width:8px;height:8px;border-radius:50%;background:var(--muted);opacity:0.5;}
+  .terminal-log{
+    height:340px;overflow-y:auto;
+    padding:1.2rem 1.4rem;
+    font-family:'IBM Plex Mono',monospace;font-size:0.87rem;
+  }
+  .terminal-log::-webkit-scrollbar{width:6px;}
+  .terminal-log::-webkit-scrollbar-thumb{background:var(--line);}
+  .msg{margin-bottom:1.1rem;max-width:100%;white-space:pre-wrap;}
+  .msg .tag{color:var(--teal);font-weight:600;margin-right:0.5rem;}
+  .msg.user .tag{color:var(--amber);}
+  .msg .body{color:#d7dce2;}
+  .quick-row{
+    display:flex;flex-wrap:wrap;gap:0.5rem;
+    padding:0 1.4rem 1rem;
+  }
+  .quick-row button{
+    font-family:'IBM Plex Mono',monospace;font-size:0.72rem;
+    background:none;color:var(--muted);border:1px solid var(--line);
+    padding:0.4rem 0.7rem;border-radius:14px;cursor:pointer;
+  }
+  .quick-row button:hover{color:var(--teal);border-color:var(--teal);}
+  .terminal-input{
+    display:flex;border-top:1px solid var(--line);
+  }
+  .terminal-input span{
+    padding:0.9rem 0 0.9rem 1.2rem;color:var(--amber);font-family:'IBM Plex Mono',monospace;
+  }
+  .terminal-input input{
+    flex:1;background:none;border:none;outline:none;
+    color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:0.9rem;
+    padding:0.9rem 1rem;
+  }
+  .terminal-input button{
+    background:var(--amber);border:none;color:#0a1420;
+    font-family:'IBM Plex Mono',monospace;font-weight:600;
+    padding:0 1.4rem;cursor:pointer;font-size:0.8rem;letter-spacing:0.03em;
+  }
+  .terminal-input button:hover{background:#f6bd63;}
+
+  footer{
+    padding:2.2rem 5vw;
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;
+    font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--muted);
+  }
+  footer a{color:var(--muted);}
+  footer a:hover{color:var(--amber);}
+
+  /* ---------- HERO CTAs & RELOCATION TAG ---------- */
+  .hero-tags{display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.8rem;}
+  .tag{
+    font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--teal);
+    border:1px solid rgba(63,199,176,0.35);background:rgba(63,199,176,0.07);
+    padding:0.3rem 0.7rem;border-radius:14px;
+  }
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:0.8rem;margin-top:1.8rem;}
+  .btn{
+    font-family:'IBM Plex Mono',monospace;font-size:0.8rem;font-weight:600;
+    padding:0.7rem 1.3rem;border-radius:var(--radius);text-decoration:none;
+    display:inline-flex;align-items:center;gap:0.5rem;cursor:pointer;
+    letter-spacing:0.02em;border:1px solid transparent;
+  }
+  .btn-primary{background:var(--amber);color:#0a1420;}
+  .btn-primary:hover{background:#f6bd63;}
+  .btn-ghost{border-color:var(--line-bright);color:var(--amber);background:none;}
+  .btn-ghost:hover{background:rgba(240,169,61,0.08);}
+
+  /* ---------- CASE STUDY ---------- */
+  .case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+  .case-card{background:var(--bg-panel);padding:1.8rem 1.6rem;}
+  .case-card .stage{
+    font-family:'IBM Plex Mono',monospace;font-size:0.7rem;text-transform:uppercase;
+    letter-spacing:0.12em;color:var(--amber);margin-bottom:0.7rem;
+  }
+  .case-card p{font-size:0.9rem;color:#d7dce2;margin:0;}
+  .case-card .result-num{font-family:'IBM Plex Mono',monospace;color:var(--teal);font-size:1.3rem;display:block;margin-bottom:0.4rem;}
+
+  /* ---------- FLOATING CHAT WIDGET ---------- */
+  #fabBtn{
+    position:fixed;bottom:1.6rem;right:1.6rem;z-index:100;
+    width:56px;height:56px;border-radius:50%;
+    background:var(--amber);border:none;color:#0a1420;
+    font-size:1.4rem;cursor:pointer;
+    box-shadow:0 10px 30px -8px rgba(0,0,0,0.6);
+    display:flex;align-items:center;justify-content:center;
+    transition:transform 0.2s;
+  }
+  #fabBtn:hover{transform:scale(1.06);}
+  #fabPanel{
+    position:fixed;bottom:5.2rem;right:1.6rem;z-index:100;
+    width:min(340px,88vw);
+    background:linear-gradient(180deg,var(--bg-panel-2),var(--bg-panel));
+    border:1px solid var(--line-bright);border-radius:var(--radius);
+    box-shadow:0 20px 60px -15px rgba(0,0,0,0.7);
+    display:none;flex-direction:column;overflow:hidden;
+  }
+  #fabPanel.open{display:flex;animation:reveal 0.25s ease;}
+  #fabPanel .terminal-bar{justify-content:space-between;}
+  #fabPanel .terminal-log{height:280px;font-size:0.82rem;}
+  #fabClose{background:none;border:none;color:var(--muted);cursor:pointer;font-size:1rem;}
+  #fabClose:hover{color:var(--amber);}
+
+  @media print{
+    nav, #fabBtn, #fabPanel, .hero-ctas, .quick-row, .terminal-input{display:none !important;}
+    body{background:#fff;color:#111;}
+    header.hero::before{display:none;}
+    section{border-bottom:1px solid #ccc;padding:1.5rem 0;}
+    .gauge, .ach-card, .case-card, .detail-panel{background:#f5f5f5;border-color:#ccc;}
+    .gauge .val, .ach-card .num, .stop .code{color:#a35f00;}
+    a{color:#0a1420;text-decoration:underline;}
+  }
+
+  @media (max-width:860px){
+    nav{flex-wrap:wrap;}
+    #navToggle{display:block;}
+    .nav-menu{
+      display:none;width:100%;flex-direction:column;gap:0;
+      padding-top:0.8rem;
+    }
+    .nav-menu.open{display:flex;}
+    .nav-menu li{padding:0.6rem 0;border-top:1px solid var(--line);}
+    .gauges{grid-template-columns:repeat(2,1fr);}
+    .gauge{border-bottom:1px solid var(--line);}
+    .ach-grid{grid-template-columns:1fr;}
+    .case-grid{grid-template-columns:1fr;}
+    .exp-grid{grid-template-columns:1fr;gap:2rem;}
+    .route-line{flex-wrap:wrap;row-gap:1.6rem;}
+    .route-line::before{display:none;}
+    .stop{flex:1 1 30%;}
+    #fabPanel{right:1rem;bottom:4.8rem;}
+    #fabBtn{right:1rem;bottom:1.2rem;}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="brand"><strong>PRATEEK TANEJA</strong> · Finance Controllership</div>
+  <button id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">☰ Menu</button>
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#route">Career Route</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#case-study">Case Study</a></li>
+    <li><a href="#expertise">Expertise</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#ask">Ask</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="overview">
+  <div class="hero-inner">
+    <div class="eyebrow">Chartered Accountant · ICAI 2012</div>
+    <h1>Prateek Taneja</h1>
+    <p class="role">
+      <strong>Aviation Finance Leader — FP&A, Route Profitability & Finance Transformation</strong> with 15+ years across India's three largest airline groups — Air India (Tata Group), IndiGo, and Akasa Air — spanning controllership, FP&A and budgeting, strategic business partnering, and finance transformation. Deploys deep-dive analytics, including route profitability and Direct Operating Cost tracking, to turn complex aviation economics into governance-ready decision support at CXO and Board level.
+    </p>
+    <div class="hero-tags">
+      <span class="tag">Open to relocation: UAE</span>
+      <span class="tag">Saudi Arabia</span>
+      <span class="tag">Canada</span>
+    </div>
+    <div class="gauges">
+      <div class="gauge"><div class="val">15+</div><div class="lbl">Years Experience</div></div>
+      <div class="gauge"><div class="val">₹44B+</div><div class="lbl">Capital Raised (~US$530M)</div></div>
+      <div class="gauge"><div class="val">3</div><div class="lbl">Airline Groups</div></div>
+      <div class="gauge"><div class="val">70%</div><div class="lbl">Process Automation Cut</div></div>
+    </div>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="mailto:hnyprateek@gmail.com">✉ Email Prateek</a>
+      <a class="btn btn-ghost" href="Prateek-Taneja-Resume.pdf" download>⬇ Download Resume (PDF)</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/prateektaneja-ab9b7922" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </div>
+</header>
+
+<section id="route">
+  <div class="section-head">
+    <div class="eyebrow">Flight Path</div>
+    <h2>Career Route</h2>
+    <p class="section-sub">Five stops from articleship to Board-level controllership. Tap a stop to open the flight log — role, dates, and what happened there. Then ask the Flight Data Recorder below for more detail.</p>
+  </div>
+
+  <div class="route-wrap">
+    <div class="route-line" role="group" aria-label="Career timeline — select a stop for details">
+      <span class="route-plane" aria-hidden="true">✈</span>
+      <button class="stop" data-id="mazars" aria-pressed="false"><div class="node"></div><div class="code">MZR</div><div class="co">Mazars India</div><div class="yr">2008–2012</div></button>
+      <button class="stop" data-id="deloitte" aria-pressed="false"><div class="node"></div><div class="code">DLT</div><div class="co">Deloitte India</div><div class="yr">2012–2014</div></button>
+      <button class="stop" data-id="indigo" aria-pressed="false"><div class="node"></div><div class="code">IGO</div><div class="co">IndiGo</div><div class="yr">2014–2022</div></button>
+      <button class="stop" data-id="akasa" aria-pressed="false"><div class="node"></div><div class="code">AKA</div><div class="co">Akasa Air</div><div class="yr">2022</div></button>
+      <button class="stop active" data-id="airindia" aria-pressed="true"><div class="node"></div><div class="code">AIL</div><div class="co">Air India</div><div class="yr">2022–Present</div></button>
+    </div>
+
+    <div class="detail-panel" id="panel"></div>
+  </div>
+</section>
+
+<section id="achievements">
+  <div class="section-head">
+    <div class="eyebrow">Instrument Readouts</div>
+    <h2>Key Achievements</h2>
+  </div>
+  <div class="ach-grid">
+    <div class="ach-card"><div class="num">Dual-GAAP</div><p>Hands-on US GAAP conversion (Form 20-F / SEC cross-listing) alongside Ind AS / IFRS statutory reporting.</p></div>
+    <div class="ach-card"><div class="num">70% ↓ / 3 days</div><p>Manual processing cut and 3 days off the close cycle via automated Vendor Invoice Management (OpenText).</p></div>
+    <div class="ach-card"><div class="num">8%</div><p>Annual cost reduction through an enterprise-wide, lean-driven cost-optimization program at IndiGo.</p></div>
+    <div class="ach-card"><div class="num">S/4HANA + AMOS</div><p>Led the controllership workstream of an enterprise SAP S/4HANA and AMOS MRO integration within an aggressive 6-month timeline.</p></div>
+    <div class="ach-card"><div class="num">₹44B+ (~$530M)</div><p>End-to-end controllership across IndiGo's 2015 IPO and 2017 FPO, alongside Ind AS transition and Audit Committee governance.</p></div>
+    <div class="ach-card"><div class="num">Vistara</div><p>Primary finance business partner through the Air India–Vistara merger, engaging Tata Group and Singapore Airlines stakeholders.</p></div>
+    <div class="ach-card"><div class="num">DOC Program</div><p>Deployed a Direct Operating Cost validation program at Air India, driving process controls over fuel tracking and airport charges for route-level cost visibility.</p></div>
+    <div class="ach-card"><div class="num">Route P&L</div><p>Used flight/route-level yield analysis at IndiGo to feed an enterprise cost-optimization program, contributing to the 8% annual cost reduction.</p></div>
+    <div class="ach-card"><div class="num">AOP & Rolling Forecasts</div><p>Formulated multi-billion-dollar Annual Operating Plans, capital allocations, rolling forecasts, and variance analyses as part of the FP&A remit.</p></div>
+  </div>
+</section>
+
+<section id="case-study">
+  <div class="section-head">
+    <div class="eyebrow">Flight Log Extract</div>
+    <h2>Case Study: Route-Level Cost Visibility</h2>
+    <p class="section-sub">A closer look at one program — the Direct Operating Cost (DOC) validation initiative at Air India.</p>
+  </div>
+  <div class="case-grid">
+    <div class="case-card">
+      <div class="stage">Problem</div>
+      <p>Aviation fuel and airport charges — two of the largest and most volatile direct operating costs — lacked route-level visibility, making it difficult to validate spend against flight-level economics or spot leakage early.</p>
+    </div>
+    <div class="case-card">
+      <div class="stage">Action</div>
+      <p>Designed and deployed a DOC validation program with rigid process controls over fuel tracking and airport charges, integrated with the SAP S/4HANA and AMOS data backbone to tie cost data back to individual flights and routes.</p>
+    </div>
+    <div class="case-card">
+      <div class="stage">Result</div>
+      <span class="result-num">Route-level cost visibility</span>
+      <p>Finance and operations teams gained a defensible, auditable view of direct operating costs by route — the same cost-control discipline that underpinned the 8% annual cost reduction achieved earlier at IndiGo through route-profitability analysis.</p>
+    </div>
+  </div>
+</section>
+
+<section id="expertise">
+  <div class="section-head">
+    <div class="eyebrow">Systems &amp; Controls</div>
+    <h2>Core Competencies</h2>
+  </div>
+  <div class="exp-grid">
+    <div class="exp-col">
+      <h3>Domain Expertise</h3>
+      <div class="chips">
+        <div class="chip" data-ask="Tell me about strategic business partnering">Strategic Business Partnering</div>
+        <div class="chip" data-ask="Tell me about FP&A and budgeting">Aviation FP&A & Budgeting</div>
+        <div class="chip" data-ask="Tell me about route profitability">Route & Sector Profitability</div>
+        <div class="chip" data-ask="Tell me about multi-entity reporting">Multi-Entity Reporting & Consolidation</div>
+        <div class="chip" data-ask="Tell me about financial reporting and internal audit">Financial Reporting & Internal Audit</div>
+        <div class="chip" data-ask="Tell me about internal controls and governance">Internal Controls, IFC/SOX & Governance</div>
+        <div class="chip" data-ask="Tell me about statutory audit experience">Statutory Audit & Regulatory Compliance</div>
+        <div class="chip" data-ask="Tell me about ERP and financial systems transformation">ERP & Financial Systems Transformation</div>
+        <div class="chip" data-ask="Tell me about process automation">Process Standardization & Automation</div>
+        <div class="chip" data-ask="Tell me about board and CFO advisory work">Strategic CFO/Board Advisory</div>
+      </div>
+    </div>
+    <div class="exp-col">
+      <h3>Tools & Credentials</h3>
+      <div class="chips">
+        <div class="chip" data-ask="What is his experience with SAP S/4HANA?">SAP S/4HANA & AMOS</div>
+        <div class="chip" data-ask="Tell me about Direct Operating Cost validation">Direct Operating Cost (DOC) Validation</div>
+        <div class="chip" data-ask="Tell me about IPO and FPO experience">IPO / FPO Execution</div>
+        <div class="chip" data-ask="Tell me about Ind AS and IFRS reporting">Ind AS (IFRS-converged)</div>
+        <div class="chip" data-ask="Tell me about US GAAP conversion experience">US GAAP Conversion</div>
+        <div class="chip" data-ask="What is Financial Leadership?">Financial Leadership</div>
+        <div class="chip" data-ask="Tell me about quarterly reviews and policy review">Quarterly Reviews / Policy Review</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="section-head">
+    <div class="eyebrow">Credentials</div>
+    <h2>Education</h2>
+  </div>
+  <div class="edu-list">
+    <div class="edu-item"><div><div class="name">Chartered Accountancy</div><div class="sub">The Institute of Chartered Accountants of India (ICAI)</div></div><div class="yr">2006–2012</div></div>
+    <div class="edu-item"><div><div class="name">Bachelor of Commerce (B.Com)</div><div class="sub">Sri Guru Gobind Singh College of Commerce, University of Delhi</div></div><div class="yr">2005–2008</div></div>
+  </div>
+</section>
+
+<section id="ask">
+  <div class="section-head">
+    <div class="eyebrow">Flight Data Recorder</div>
+    <h2>Ask About Prateek</h2>
+    <p class="section-sub">Query the record directly — try a role, a company, a project, or "what should I ask?"</p>
+  </div>
+
+  <div class="terminal">
+    <div class="terminal-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>&nbsp; fdr://prateek-taneja/profile</div>
+    <div class="terminal-log" id="log"></div>
+    <div class="quick-row" id="quickRow"></div>
+    <div class="terminal-input">
+      <span>&gt;</span>
+      <input id="chatInput" type="text" placeholder="Ask about a role, project, or achievement..." autocomplete="off">
+      <button id="sendBtn">SEND</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>+91 98117 94348 &nbsp;·&nbsp; hnyprateek@gmail.com</div>
+  <div><a href="https://www.linkedin.com/in/prateektaneja-ab9b7922" target="_blank" rel="noopener">linkedin.com/in/prateektaneja-ab9b7922</a></div>
+</footer>
+
+<button id="fabBtn" aria-expanded="false" aria-controls="fabPanel" aria-label="Open quick chat">✈</button>
+<div id="fabPanel" role="dialog" aria-label="Ask about Prateek">
+  <div class="terminal-bar">
+    <span>fdr:// quick ask</span>
+    <button id="fabClose" aria-label="Close chat">✕</button>
+  </div>
+  <div class="terminal-log" id="fabLog"></div>
+  <div class="terminal-input">
+    <span>&gt;</span>
+    <input id="fabInput" type="text" placeholder="Ask a quick question..." autocomplete="off">
+    <button id="fabSend">SEND</button>
+  </div>
+</div>
+
+<script>
+/* ---------------- DATA ---------------- */
+const stops = {
+  mazars: {
+    code:"MZR", title:"Audit Executive / Article Assistant", company:"Mazars India",
+    meta:"Aug 2008 – Feb 2012 · Gurgaon",
+    roles:[{
+      heading:"Statutory & US GAAP Audit",
+      bullets:[
+        "Served on the Form 20-F audit engagement for Cairn India, performing IFRS-to-US GAAP reconciliation and conversion analysis for SEC cross-listing and dual-GAAP reporting.",
+        "Executed the statutory audit for Adidas, converting financial statements from Indian Accounting Standards to US GAAP.",
+        "Gained multi-client audit exposure across inventory, receivables/payables and revenue recognition cycles."
+      ]
+    }]
+  },
+  deloitte: {
+    code:"DLT", title:"Assistant Manager", company:"Deloitte India",
+    meta:"Dec 2012 – Dec 2014 · Gurgaon, Haryana",
+    roles:[{
+      heading:"Statutory Audit — AERS",
+      bullets:[
+        "Statutory audit engagement work within Deloitte's Audit & Enterprise Risk Services (AERS) practice.",
+        "Built on the multi-GAAP audit foundation from Mazars ahead of moving into industry with IndiGo."
+      ]
+    }]
+  },
+  indigo: {
+    code:"IGO", title:"Senior Manager → Associate Director, Finance", company:"IndiGo — India's largest airline by market share",
+    meta:"Dec 2014 – Feb 2022 · Gurgaon (7 yrs 3 months)",
+    roles:[
+      {
+        heading:"Route Profitability & Financial Performance Tracking",
+        bullets:[
+          "Partnered with corporate planning and revenue teams to monitor flight and sector performance metrics, using route profitability data to identify operational waste.",
+          "Used flight/route-level yield analysis to feed an enterprise-wide cost optimization program that yielded an 8% annual cost reduction.",
+          "Led financial process re-engineering across Record-to-Report, reporting, and internal control frameworks, ensuring configurations mapped to route and operational demands."
+        ]
+      },
+      {
+        heading:"Budgeting & Corporate Governance",
+        bullets:[
+          "Coordinated multi-workstream regulatory and capital-markets compliance for the 2015 IPO (₹18.5B / ~US$223M) and 2017 FPO (₹25.5B / ~US$307M) — over ₹44B (~US$530M) raised.",
+          "Spearheaded the Ind AS (IFRS-converged) transition program across enterprise systems.",
+          "Designed and deployed an enterprise-wide risk-management framework; presented strategic updates and risk-mitigation protocols to the Audit Committee and regulatory forums."
+        ]
+      },
+      {
+        heading:"Financial Reporting, Internal Audit & IFC Compliance",
+        bullets:[
+          "Owned statutory and management financial reporting across the close cycle, ensuring accuracy ahead of Board and regulatory submissions.",
+          "Coordinated internal audit engagements and control testing as part of the Record-to-Report re-engineering effort.",
+          "Embedded Internal Financial Controls (IFC) compliance into system configurations during the Ind AS transition."
+        ]
+      },
+      {
+        heading:"Senior Manager, Financial Reporting (Dec 2014 – Oct 2021)",
+        bullets:[
+          "Owned financial reporting and analysis across a 6-year-11-month tenure spanning IndiGo's growth and listing years, laying the groundwork for the route-profitability and FP&A work that followed."
+        ]
+      }
+    ]
+  },
+  akasa: {
+    code:"AKA", title:"Financial Controller & Revenue Partner (GM Finance)", company:"Akasa Air — India's newest low-cost carrier (launched 2022)",
+    meta:"Feb 2022 – Nov 2022 · Mumbai / New Delhi",
+    roles:[{
+      heading:"Controllership at a newly launched airline",
+      bullets:[
+        "Provided controllership support to commercial, operations, and revenue teams.",
+        "Built a KPI dashboard suite linking financial reporting to daily operations.",
+        "Implemented lean cost-control frameworks and streamlined month-end close while maintaining data integrity and compliance.",
+        "Owned monthly financial reporting and closing at a newly launched airline, and supported internal audit and IFC control design during the buildout of finance processes from the ground up."
+      ]
+    }]
+  },
+  airindia: {
+    code:"AIL", title:"AVP, Financial Controller & Head – Finance Transformation", company:"Air India Limited (Tata Group) — India's flag carrier",
+    meta:"Oct 2022 – Present · New Delhi / Gurugram",
+    roles:[
+      {
+        heading:"Strategic Business Partnering & Governance",
+        bullets:[
+          "Primary finance business partner to executive stakeholders and operational units, embedding financial discipline into corporate strategy and the Air India–Vistara merger integration.",
+          "Designed and delivered an automated senior-management dashboard suite giving the Board, Tata Group, and Singapore Airlines predictive KPIs and critical strategic metrics.",
+          "Structured and upskilled cross-functional, multi-layer finance teams across regional hubs to drive localized financial ownership and accountability."
+        ]
+      },
+      {
+        heading:"FP&A, Budgeting & Route/DOC Cost Transformation",
+        bullets:[
+          "Owns long-term planning and the Annual Operating Plan (AOP) cycle, alongside budget-vs-actual analytics and multi-departmental cost tracking.",
+          "Deployed an advanced Direct Operating Cost (DOC) validation program — establishing rigid process controls over aviation fuel tracking and airport charges for route-level cost visibility.",
+          "Engineered a budget-monitoring framework for aircraft and engine maintenance, optimizing Power-by-the-Hour (PBTH) contracts, engine overhauls, and aircraft redelivery provisions by integrating SAP S/4HANA with AMOS."
+        ]
+      },
+      {
+        heading:"Process Automation",
+        bullets:[
+          "Led the controllership workstream of a 6-month enterprise SAP S/4HANA and AMOS integration.",
+          "Deployed an automated Vendor Invoice Management platform (OpenText), cutting manual processing ~70% and 3 days off the close cycle."
+        ]
+      },
+      {
+        heading:"Financial Reporting, Internal Audit & IFC Compliance",
+        bullets:[
+          "Owns monthly, quarterly, and annual financial reporting and close, ensuring accuracy and audit-readiness across regional finance hubs.",
+          "Coordinates internal audit reviews and remediation tracking, embedding control ownership into the decentralized finance structure.",
+          "Drives Internal Financial Controls (IFC) compliance — designing, testing, and certifying controls in line with governance and statutory requirements."
+        ]
+      }
+    ]
+  }
+};
+
+/* ---------------- KNOWLEDGE BASE FOR CHAT ---------------- */
+const kb = [
+  { kws:["who","about","summary","overview","yourself","background","intro"],
+    a:"Prateek Taneja is a Chartered Accountant (ICAI, 2012) with 15+ years of finance-controllership and transformation experience across Air India (Tata Group), IndiGo, and Akasa Air. He partners at CXO and Board level, has led a 6-month SAP S/4HANA controllership workstream, and executed controllership across ₹44B+ of capital-markets transactions (IndiGo's IPO and FPO). He's now targeting a CFO or senior group-finance leadership mandate." },
+  { kws:["air india","current","avp","tata","present","latest role","today"],
+    a:"At Air India (Oct 2022–Present) he's AVP, Financial Controller & Head – Finance Transformation. He's the primary finance business partner to the Board, Tata Group and Singapore Airlines through the Vistara merger; owns long-term planning, the Annual Operating Plan cycle, and budget-vs-actual analytics; owns financial reporting/close, internal audit coordination and IFC compliance; runs a Direct Operating Cost (DOC) validation program over fuel and airport charges; led the controllership workstream of a 6-month SAP S/4HANA + AMOS integration; and deployed an automated Vendor Invoice Management platform (OpenText) that cut manual processing ~70% and 3 days off the close cycle." },
+  { kws:["akasa","gm finance","revenue partner"],
+    a:"At Akasa Air (Feb–Nov 2022) he was Financial Controller & Revenue Partner (GM Finance), business-partnering with commercial and operational heads, building a KPI dashboard suite, managing operational budgets, and owning monthly financial reporting and closing — including internal audit support and IFC control design — while building finance processes from the ground up at a newly launched airline." },
+  { kws:["indigo","ipo","fpo","44b","capital market","listing","record to report","r2r"],
+    a:"At IndiGo (Dec 2014–Feb 2022, 7+ years) — India's largest airline by market share — he rose from Senior Manager, Financial Reporting to Associate Director of Finance. He used route profitability and flight/sector-level yield analysis to feed an 8% annual cost-optimization program, owned statutory and management financial reporting, coordinated internal audit engagements and IFC compliance, coordinated controllership for the 2015 IPO (₹18.5B / ~US$223M) and 2017 FPO (₹25.5B / ~US$307M) — over ₹44B (~US$530M) raised — and led the Ind AS/IFRS transition." },
+  { kws:["relocat","move","move abroad","uae","dubai","abu dhabi","saudi","ksa","canada","visa","work authorization","international"],
+    a:"He's open to relocation for the right opportunity — primarily targeting the UAE, Saudi Arabia, and Canada for a senior aviation finance leadership role spanning FP&A, route profitability, and finance transformation." },
+  { kws:["case study","doc validation","fuel tracking","airport charges","route cost","cost visibility"],
+    a:"The DOC (Direct Operating Cost) validation program at Air India is a good example of his route-cost work: fuel and airport charges lacked route-level visibility, so he designed a validation program with rigid process controls, integrated with SAP S/4HANA and AMOS, tying cost data back to individual flights and routes — the same discipline behind the 8% cost reduction he drove earlier at IndiGo." },
+  { kws:["financial reporting","internal audit","ifc","internal financial controls","compliance","close cycle","statutory reporting","audit","controls","reporting"],
+    a:"Financial reporting, internal audit, and IFC compliance run across all three airlines: at IndiGo he owned statutory/management reporting and coordinated internal audit and IFC work through the Ind AS transition; at Akasa Air he built monthly reporting and IFC control design from scratch for a newly launched airline; and at Air India he owns the reporting and close cycle plus internal audit coordination and IFC certification across regional finance hubs." },
+  { kws:["fp&a","fpna","fp and a","budgeting","budget","forecast","aop","annual operating plan","variance","long term planning","budget vs actual"],
+    a:"His FP&A and budgeting work spans formulating multi-billion-dollar Annual Operating Plans, capital allocations, rolling forecasts and variance analyses. At Air India this includes long-term planning and the AOP cycle, budget-vs-actual analytics, and a budget-monitoring framework for aircraft/engine maintenance covering Power-by-the-Hour contracts, engine overhauls, and redelivery provisions." },
+  { kws:["route profitability","route","sector","doc","direct operating cost","yield","flight profitability"],
+    a:"Route and sector profitability is a core specialty. At IndiGo he partnered with corporate planning and revenue teams, using flight/route-level yield analysis to identify operational waste and drive an 8% annual cost reduction. At Air India he deployed a Direct Operating Cost (DOC) validation program, building rigid process controls over aviation fuel tracking and airport charges to sharpen route-level cost visibility." },
+  { kws:["business partner","business partnering","cross-functional","stakeholder management"],
+    a:"He's built his career as a strategic business partner to CXO/Board-level and cross-functional stakeholders — commercial, operations, and revenue teams at Akasa and IndiGo, and the Board, Tata Group, and Singapore Airlines at Air India — translating operational metrics into bottom-line profitability and governance-ready reporting." },
+  { kws:["amos","mro","power-by-the-hour","pbth","engine overhaul","maintenance"],
+    a:"On MRO cost optimization at Air India, he engineered a budget-monitoring framework for aircraft and engine maintenance, integrating SAP S/4HANA with AMOS to optimize Power-by-the-Hour (PBTH) contracts, engine overhauls, and aircraft redelivery provisions." },
+  { kws:["deloitte","aers"],
+    a:"At Deloitte India (Dec 2012–Dec 2014) he was Assistant Manager in the Audit & Enterprise Risk Services (AERS) practice, doing statutory audit work right after qualifying as a CA." },
+  { kws:["mazars","cairn","20-f","us gaap","adidas","article"],
+    a:"At Mazars India (2008–2012) he worked on the Form 20-F audit engagement for Cairn India (IFRS-to-US GAAP conversion for SEC cross-listing) and the Adidas statutory audit (Ind AS-to-US GAAP conversion). This is the root of his dual-GAAP capability." },
+  { kws:["vistara","merger","singapore airlines"],
+    a:"Through the Air India–Vistara merger integration, Prateek was the primary finance business partner engaging Tata Group and Singapore Airlines stakeholders directly, embedding financial discipline and governance into a live, high-stakes corporate integration." },
+  { kws:["sap","s/4hana","erp","implementation"],
+    a:"He led the controllership workstream of a 6-month enterprise SAP S/4HANA implementation at Air India, aligning master data, inventory, and financial-close processes with ERP-embedded controls." },
+  { kws:["achievement","achievements","highlight","accomplishment","proud","cost reduction","cost savings","savings","results","impact"],
+    a:"Key achievements: dual-GAAP reporting capability (US GAAP + Ind AS); 70% cut in manual processing and 3 days off the close cycle via OpenText VIM; 8% annual cost reduction at IndiGo driven by route profitability analysis; a Direct Operating Cost validation program at Air India; a 6-month SAP S/4HANA + AMOS controllership workstream; and end-to-end controllership across ₹44B+ (~US$530M) of IPO/FPO capital-markets activity." },
+  { kws:["skill","skills","competenc","expertise","core"],
+    a:"Core competencies: Strategic Business Partnering, Aviation FP&A & Budgeting, Route & Sector Profitability, Multi-Entity Financial Reporting & Consolidation, Internal Controls/IFC/SOX & Governance, Statutory Audit & Regulatory Compliance, ERP & Financial Systems Transformation, Process Standardization & Automation, and Strategic CFO/Board Advisory & Stakeholder Management." },
+  { kws:["education","ca","chartered accountant","icai","b.com","college","university","degree","school"],
+    a:"He's a Chartered Accountant, ICAI (2006–2012), and holds a B.Com from Sri Guru Gobind Singh College of Commerce, University of Delhi (2005–2008)." },
+  { kws:["ind as","ifrs","gaap","dual gaap","statutory"],
+    a:"He combines Ind AS (IFRS-converged) statutory reporting with hands-on US GAAP conversion experience — the Cairn India Form 20-F engagement and the Adidas India conversion at Mazars — giving him genuine dual-GAAP capability." },
+  { kws:["contact","email","phone","reach","connect","linkedin","hire"],
+    a:"Reach Prateek at +91 98117 94348 or hnyprateek@gmail.com, or connect on LinkedIn: linkedin.com/in/prateektaneja-ab9b7922." },
+  { kws:["cfo","goal","looking for","next role","target"],
+    a:"He's looking to bring this controllership and transformation track record into a CFO or senior group-finance leadership mandate — ideally within aviation or another complex, multi-entity, regulator-facing business." },
+  { kws:["quarterly review","policy review","financial leadership"],
+    a:"His top-endorsed LinkedIn skills are Financial Leadership, Quarterly Reviews, and Policy Review — reflecting his day-to-day work presenting governance-relevant financials to Boards and Audit Committees." },
+  { kws:["what should i ask","help","suggest","options"],
+    a:"You could ask about: his current role at Air India, route profitability, FP&A/budgeting, the SAP S/4HANA + AMOS project, the Vistara merger, the IndiGo IPO/FPO, financial reporting/IFC compliance, relocation plans, key achievements, or education." }
+];
+
+const greetings = ["hi","hello","hey","yo","sup"];
+
+function findAnswer(query){
+  const q = query.toLowerCase().trim();
+  if(!q) return null;
+  if(greetings.includes(q)) return "Hello — ask me anything about Prateek's roles, projects, or achievements. Try the buttons below for ideas.";
+  let best=null, bestScore=0;
+  kb.forEach(entry=>{
+    let score=0;
+    entry.kws.forEach(k=>{ if(q.includes(k)) score += k.split(" ").length; });
+    if(score>bestScore){bestScore=score;best=entry;}
+  });
+  if(best) return best.a;
+  return "I don't have that in the flight record yet. Try asking about Air India, IndiGo, Akasa Air, route profitability, FP&A/budgeting, the SAP S/4HANA project, the Vistara merger, IPO/FPO, relocation plans, achievements, or education — or reach out directly via the contact details in the footer.";
+}
+
+/* ---------------- ROUTE STOPS UI ---------------- */
+const panel = document.getElementById('panel');
+function renderPanel(id){
+  const s = stops[id];
+  let html = `<h3>${s.title}</h3><div class="meta">${s.company} · ${s.meta}</div>`;
+  s.roles.forEach(r=>{
+    html += `<div class="role-block"><strong>${r.heading}</strong><ul>`;
+    r.bullets.forEach(b=> html += `<li>${b}</li>`);
+    html += `</ul></div>`;
+  });
+  html += `<button class="ask-more" data-ask="Tell me more about ${s.company}">Ask the Flight Data Recorder about ${s.company} →</button>`;
+  panel.innerHTML = html;
+  panel.classList.add('open');
+}
+document.querySelectorAll('.stop').forEach(stop=>{
+  stop.addEventListener('click', ()=>{
+    document.querySelectorAll('.stop').forEach(s=>{ s.classList.remove('active'); s.setAttribute('aria-pressed','false'); });
+    stop.classList.add('active');
+    stop.setAttribute('aria-pressed','true');
+    renderPanel(stop.dataset.id);
+  });
+});
+renderPanel('airindia');
+
+/* ---------------- MOBILE NAV TOGGLE ---------------- */
+const navToggle = document.getElementById('navToggle');
+const navMenu = document.getElementById('navMenu');
+navToggle.addEventListener('click', ()=>{
+  const isOpen = navMenu.classList.toggle('open');
+  navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+});
+navMenu.querySelectorAll('a').forEach(a=>{
+  a.addEventListener('click', ()=>{
+    navMenu.classList.remove('open');
+    navToggle.setAttribute('aria-expanded','false');
+  });
+});
+
+/* ---------------- CHAT UI (reusable for main terminal + floating widget) ---------------- */
+function createChatController(logEl, inputEl, sendEl){
+  function addMsg(tag, text, cls){
+    const div=document.createElement('div');
+    div.className='msg '+(cls||'');
+    div.innerHTML = `<span class="tag">${tag}</span><span class="body"></span>`;
+    div.querySelector('.body').textContent = text;
+    logEl.appendChild(div);
+    logEl.scrollTop = logEl.scrollHeight;
+  }
+  function sendMessage(){
+    const val = inputEl.value.trim();
+    if(!val) return;
+    addMsg('YOU >', val, 'user');
+    inputEl.value='';
+    setTimeout(()=>{
+      const ans = findAnswer(val);
+      addMsg('FDR >', ans);
+    }, 220);
+  }
+  sendEl.addEventListener('click', sendMessage);
+  inputEl.addEventListener('keydown', e=>{ if(e.key==='Enter') sendMessage(); });
+  return { addMsg, sendMessage };
+}
+
+const mainChat = createChatController(
+  document.getElementById('log'),
+  document.getElementById('chatInput'),
+  document.getElementById('sendBtn')
+);
+const fabChat = createChatController(
+  document.getElementById('fabLog'),
+  document.getElementById('fabInput'),
+  document.getElementById('fabSend')
+);
+
+const quickRow = document.getElementById('quickRow');
+const quickQs = [
+  "What's his current role?",
+  "Tell me about route profitability",
+  "Tell me about FP&A and budgeting",
+  "Tell me about the IndiGo IPO",
+  "Key achievements?"
+];
+quickQs.forEach(q=>{
+  const b=document.createElement('button');
+  b.textContent=q;
+  b.addEventListener('click', ()=>{ document.getElementById('chatInput').value=q; mainChat.sendMessage(); });
+  quickRow.appendChild(b);
+});
+
+document.body.addEventListener('click', e=>{
+  if(e.target.matches('[data-ask]')){
+    const q = e.target.dataset.ask;
+    document.getElementById('chatInput').value = q;
+    document.getElementById('ask').scrollIntoView({behavior:'smooth', block:'center'});
+    setTimeout(()=> mainChat.sendMessage(), 350);
+  }
+});
+
+mainChat.addMsg('FDR >', "Flight Data Recorder online. Ask about a role, a company, a project (e.g. SAP S/4HANA), or an achievement.");
+fabChat.addMsg('FDR >', "Quick ask — try \"route profitability\" or \"current role.\"");
+
+/* ---------------- FLOATING CHAT WIDGET TOGGLE ---------------- */
+const fabBtn = document.getElementById('fabBtn');
+const fabPanel = document.getElementById('fabPanel');
+const fabClose = document.getElementById('fabClose');
+fabBtn.addEventListener('click', ()=>{
+  const isOpen = fabPanel.classList.toggle('open');
+  fabBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  if(isOpen) document.getElementById('fabInput').focus();
+});
+fabClose.addEventListener('click', ()=>{
+  fabPanel.classList.remove('open');
+  fabBtn.setAttribute('aria-expanded','false');
+});
+</script>
+</body>
+</html>
